@@ -1,0 +1,14 @@
+Tudo que está na raiz da pasta class, são classes genéricas. 
+Podendo fazer diferenciação criando novas pastas com classes mais específicas.
+
+O meu index, está chamando o arquivo config.php.
+
+Dentro de config.php, chamo o autoload, de forma dinâmica para que quando solicitado
+ele busque para mim a classe que necessito dentro da pasta "class". Mesmo ela estando
+em subpastas ou na pasta raiz normal.
+
+Para se utilizar o namespace, fui a classe específica criada em Cliente\Cadastro e 
+posteriormente coloquei namespace Cliente (nome do arquivo).
+Depois realizei a definição do Cadastro e disse que ela extende de Cadastro. Utilizo
+a barra invertida para que o computador volte a pasta anterior.
+
