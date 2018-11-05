@@ -7,7 +7,7 @@
 		private $conexao;
 
 		public function __construct(){
-			$this->conexao = new PDO("mysql:host=localhost;dbname=db_php7", "root", "");
+			$this->conexao = new PDO("mysql:host=localhost;dbname=phpmyadmin", "root", "");
 		}
 
 		private function setParams($statement, $parameters = array()){
